@@ -166,6 +166,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Example\FormValidation\index.css" />
     <Content Include="Example\FormValidation\index.html" />
     <Content Include="Example\FormValidation\index.js" />
     <Content Include="favicon.ico" />
