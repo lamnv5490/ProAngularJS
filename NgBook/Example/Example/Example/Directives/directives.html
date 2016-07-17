@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <title>Directives</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../Content/foundation.min.css" />
+    <script src="../../Scripts/angular.min.js"></script>
+    <script src="directives.js"></script>
+</head>
+
+<body>
+    <label>Their URL field:</label>
+    <input type="text" ng-model="theirUrl"/>
+
+    <div my-directive
+         my-url="theirUrl"
+         my-link-text="Click me to go to Google"></div>
+</body>
+
+</html>
