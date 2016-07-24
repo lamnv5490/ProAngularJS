@@ -161,6 +161,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\foundation.min.css" />
+    <Content Include="Example\Menu\menu.html" />
+    <Content Include="Example\Menu\menu.js" />
     <Content Include="Example\MultiForm\MultiForm.html" />
     <Content Include="Example\Directives\directives.html" />
     <Content Include="Example\Directives\directives.js" />

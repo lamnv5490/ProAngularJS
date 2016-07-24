@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <meta charset="utf-8" />
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            padding: 5px;
+            margin: 5px;
+            background: #BABABA;
+            display: inline-block;
+        }
+
+        ul li:hover {
+            cursor: pointer;
+        }
+
+        ul li.active {
+            color: #FFF;
+        }
+
+    </style>
+    <script src="../../Scripts/angular.min.js"></script>
+    <script src="menu.js"></script>
+</head>
+<body ng-app="appModule">
+    <ul nav-menu>
+        <li class="active">
+            Home
+        </li>
+        <li>
+            About
+        </li>
+        <li>
+            Contact
+        </li>
+    </ul>
+</body>
+</html>
