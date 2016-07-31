@@ -160,7 +160,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\foundation.min.css" />
+    <Content Include="Example\FormBasedDirective\index.html" />
+    <Content Include="Example\FormBasedDirective\index.js" />
+    <Content Include="Example\FormBasedDirective\myForm.html" />
+    <Content Include="Example\IsolatedScope\index.html" />
+    <Content Include="Example\IsolatedScope\index.js" />
     <Content Include="Example\Menu\menu.html" />
     <Content Include="Example\Menu\menu.js" />
     <Content Include="Example\MultiForm\MultiForm.html" />
