@@ -7,14 +7,10 @@ app.directive("myDirective", function () {
         restrict: "A",
         replace: true,
         scope: {
-            myUrl: "=",
-            myLinkText: "@"
+            myUrl: "@otherUrl"
         },
         template:
             "<div>" +
-            "<label>My URL Field:</label>" +
-            "<input type='text' ng-model='myUrl' />" +
-            "<a href='{{myUrl}}'>{{myLinkText}}</a>" +
-            "</div>"
+            "<label>My URL Field:{{myUrl}}</label></div>"
     }
 });

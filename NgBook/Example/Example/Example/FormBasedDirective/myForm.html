@@ -1,0 +1,42 @@
+﻿<form class="container js-my-form">
+
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h2>Employee Nomination</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            Employee Name: {{employeeName}}
+        </div>
+        <div class="col-sm-6">
+            Title: {{title}}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2">
+            <label>How many project you have been working nomenatee (*):</label>
+        </div>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="projectCount" ng-model="projectCount" required placeholder="Project Count" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2">
+            <label>Your Comment:</label>
+        </div>
+        <div class="col-sm-10">
+            <textarea class="form-control" name="yourComment" ng-model="youComment" placeholder="Your comment"></textarea>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+
+</form>
