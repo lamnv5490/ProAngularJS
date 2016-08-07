@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <title>Promise</title>
+    <meta charset="utf-8" />
+    <script src="../../Scripts/angular.min.js"></script>
+    <script src="promise.js"></script>
+</head>
+
+<body ng-controller="DashboardController">
+    <h1>Open Pull Requests for Angular JS</h1>
+    <ul >
+        <li ng-repeat="pr in pullRequests">
+            {{ pr.title }}
+        </li>
+    </ul>
+
+    <h3>{{notifyMessage}}</h3>
+</body>
+
+</html>

@@ -160,6 +160,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\foundation.min.css" />
     <Content Include="Example\Menu\menu.html" />
     <Content Include="Example\Menu\menu.js" />
@@ -170,6 +171,10 @@
     <Content Include="Example\FormValidation\index.html" />
     <Content Include="Example\FormValidation\index.js" />
     <Content Include="Example\MultiForm\MultiForm.js" />
+    <Content Include="Example\ProAngular-PartTwo\index.html" />
+    <Content Include="Example\ProAngular-PartTwo\index.js" />
+    <Content Include="Example\Promise\promise.html" />
+    <Content Include="Example\Promise\promise.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="ApplicationInsights.config">

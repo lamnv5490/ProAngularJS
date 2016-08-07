@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html ng-app="exampleApp">
+
+<head>
+    <title>Directives</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../Content/bootstrap.min.css" />
+    <script src="../../Scripts/angular.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="panel" ng-controller="dayCtrl">
+        <div class="page-header">
+            <h3>AngularJS App</h3>
+        </div>
+        <h4>Today is {{day || "(unknown)"}}</h4>
+    </div>
+</body>
+
+</html>
