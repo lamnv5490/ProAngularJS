@@ -176,6 +176,8 @@
     <Content Include="Example\FormValidation\index.html" />
     <Content Include="Example\FormValidation\index.js" />
     <Content Include="Example\MultiForm\MultiForm.js" />
+    <Content Include="Example\ProAngular-ChapterTen\index.html" />
+    <Content Include="Example\ProAngular-ChapterTen\index.js" />
     <Content Include="Example\ProAngular-PartTwo\index.html" />
     <Content Include="Example\ProAngular-PartTwo\index.js" />
     <Content Include="Example\Promise\promise.html" />
